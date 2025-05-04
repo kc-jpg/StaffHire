@@ -1,5 +1,5 @@
 public class StaffHire {
-    private int vacancyNumber;
+    private int vacancyNumber;          //Attributes to store staff details
     private String designationType;
     private String jobType;
     private String staffName;
@@ -7,7 +7,7 @@ public class StaffHire {
     private String qualification;
     private String appointedBy;
     private boolean joined;
-    
+    //Constructor to initialise all attributes
     public StaffHire(int vacancyNumber, String designationType,String jobType,
     String staffName, String joiningDate, String qualification, 
     String appointedBy, boolean joined) {
@@ -21,7 +21,7 @@ public class StaffHire {
         this.joined = joined;
      }
     
-     //Getter and Setter methods
+     //Getter and Setter methods for each attribute
     public int getVacancyNumber() {
         return vacancyNumber;
     }
@@ -91,7 +91,7 @@ public class StaffHire {
             System.out.println("A Staff Member is already assigned to this position");
         }
     }
-    
+    //Display method to print all staff details to the terminal
     public void display() {
         System.out.println("Vacancy Number: " +vacancyNumber);
         System.out.println("Designation: " +designationType);
