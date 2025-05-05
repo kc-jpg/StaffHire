@@ -13,7 +13,7 @@ public class StaffHire {
     String appointedBy, boolean joined) {
         this.vacancyNumber = vacancyNumber;
         this.designationType = designationType;
-        this.jobType = jobType;
+        this.jobType = jobType; //this.name(class variable) = name(parameter)
         this.staffName = staffName;
         this.joiningDate = joiningDate;
         this.qualification = qualification;
